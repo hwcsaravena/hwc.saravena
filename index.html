@@ -1,0 +1,199 @@
+´<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Catalogo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="images/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#lista-1">Productos</a></li>
+                    
+                    <li><a href="#buttons">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                     </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1> Sueño e Insomnio - Geraniol </h1>
+                                <div class="prices">
+                                
+                                    <p class="price-2">$80.000</p>
+                                </div>
+                                <a href="https://api.whatsapp.com/send?phone=3205752841&text=Hola, quiero comprar tu producto!" target="_blank" class="btn-1">Información</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="images/bg1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                    <h1> Anciedad y Estres - Limoneno </h1>
+                                    <div class="prices">
+                                        
+                                        <p class="price-2">$80.000</p>
+                                    </div>
+                                    <a href="https://api.whatsapp.com/send?phone=3205752841&text=Hola, quiero comprar tu producto!" target="_blank" class="btn-1">Información</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="images/bg2.jpeg" alt="">
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                    <h1> Dolor Muscular - Pinenos </h1>
+                                    <div class="prices">
+                                        
+                                        <p class="price-2">$80.000</p>
+                                    </div>
+                                    <a href="https://api.whatsapp.com/send?phone=3205752841&text=Hola, quiero comprar tu producto!" target="_blank" class="btn-1">Información</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="images/bg3.jpeg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <hr>
+
+    <section class="promos container" id="lista-1">
+        <h2>Productos</h2>
+        <div class="categories">
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Geninol</h3>
+                    <div class="prices">
+                        
+                        <p class="prece-2">$80.000</p>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=3205752841&text=Hola, quiero comprar tu producto!" target="_blank" class="agregar-carrito btn-3" data-id="1">Adquirir</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images/ph1.png" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Limineno</h3>
+                    <div class="prices">
+                        
+                        <p class="prece-2">$80.000</p>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=3205752841&text=Hola, quiero comprar tu producto!" target="_blank" class="agregar-carrito btn-3" data-id="2">Adquirir</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images/ph2.png" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Pinenos</h3>
+                    <div class="prices">
+                        
+                        <p class="prece-2">$80.000</p>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=3205752841&text=Hola, quiero comprar tu producto!" target="_blank" class="agregar-carrito btn-3" data-id="3">Adquirir</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images/ph3.png" alt="">
+                </div>
+            </div>
+         
+        </div> 
+
+    </section>
+
+
+    <section class="buttons" id="buttons">
+
+        <a href="https://api.whatsapp.com/send?phone=3205752841&text=Hola, quiero comprar tu producto!" target="_blank" class="fa fa-whatsapp"></a>
+        <a href="https://www.instagram.com/sneyder_skr/" target="_blank" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-facebook" target="_blank" id="3"></a>
+        <a href="mailto:hwc.saravena@gmail.com?subject=Hola&body= Hola, quiero comprar tu producto!" target="_blank" class="fa fa-envelope"></a>
+
+
+    </section>
+
+    <footer class="footer container">
+
+       
+        
+        <div class="link">
+
+            <h3></h3>
+
+            <p>&copy; Jardín Pequeño 2023</p>
+            
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
