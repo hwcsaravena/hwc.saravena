@@ -305,7 +305,7 @@ hr {
 }
 
 .buttons {
-    min-width: 500px;
+    min-width: 300px;
     display: flex;
     justify-content: space-around;
 }
